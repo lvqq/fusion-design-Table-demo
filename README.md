@@ -1,10 +1,9 @@
-# lite-scaffold
+## 环境
+IE 11
+iceworks v3.1.10
 
-## 使用
+## 重现步骤
+点击第二页，左侧锁列选择框样式错乱
 
-- 启动调试服务: `npm start`
-- 构建 dist: `npm run build`
+## 地址
 
-## 效果图
-
-![screenshot](https://img.alicdn.com/tfs/TB1CjPVw4naK1RjSZFBXXcW7VXa-2872-1580.png)

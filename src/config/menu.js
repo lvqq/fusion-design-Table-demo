@@ -27,7 +27,37 @@ const asideMenuConfig = [
     children: [
       {
         name: '监控页',
-        path: '/dashboard/demo',
+        path: '/dashboard/monitor',
+      },
+    ],
+  },
+  {
+    name: '图表页',
+    path: '/chart',
+    icon: 'picture',
+    children: [
+      {
+        name: '基础图表',
+        path: '/chart/basic',
+      },
+      {
+        name: '通用图表',
+        path: '/chart/general',
+      },
+    ],
+  },
+  {
+    name: '表格页',
+    path: '/table',
+    icon: 'calendar',
+    children: [
+      {
+        name: '基础表格',
+        path: '/table/basic',
+      },
+      {
+        name: '通用表格',
+        path: '/table/general',
       },
     ],
   },
